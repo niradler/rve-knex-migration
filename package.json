@@ -1,0 +1,17 @@
+{
+  "name": "rve-db-to-knex-mig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.12.1",
+    "inquirer": "^4.0.0",
+    "knex": "^0.14.2",
+    "mysql": "^2.15.0"
+  }
+}
