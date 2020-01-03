@@ -40,7 +40,7 @@ async function createMigration(con) {
     const describes = [];
     for (const i in tables) {
         try{
-            r = await knex.raw('describe ' + tables[i])
+            r = await knex.raw(`describe \`${tables[i]}\``);
             describes.push({
                 table: tables[i],
                 cols: r[0]
